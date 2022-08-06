@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    font-size: 62.5%;
+    --bg-gon:#47a042;
+    --bg-killua:#2e3485;
+    --font_text:'Roboto', sans-serif;
+    --font_title:'Bebas Neue', cursive;
+}
+body{
+  
+    width: 100%;
+    height: 100vh;
+
+}
+.alinhamento{
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding-inline: 2%;
+}
+
+@import "nav";
+@import "mainSec";
+@import "temas";

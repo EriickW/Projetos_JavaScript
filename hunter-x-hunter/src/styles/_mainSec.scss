@@ -1,0 +1,152 @@
+main{
+    width: 100%;
+    position: relative;
+   
+    #personagem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        height:100% ;
+    #trocaPersonagem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        left: 0;
+
+        img{
+            border-radius: 50%;
+            width: 50px;
+            cursor: pointer;
+        }
+    }
+        #trocaPresonagem{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-grow: 1;
+            gap: 2rem;
+        }
+    #name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 2rem;
+        height: 100%;
+        img{
+            flex-grow: 1;
+            height: 500px;  
+            width: 220px;   
+        }
+    }
+    #content-person{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100px;
+        flex-shrink: 0;
+        flex-grow:2;
+        
+        gap: 30px;
+            p{
+           
+                text-align: justify; 
+                color: white;
+                font-family: var(--font_text);
+                font-size: 15px;
+            }
+            .box{
+                padding: 3%;
+                background: rgba(255, 255, 255, 0.12);
+                border-radius: 5px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+            }
+            .box:nth-child(1){
+                min-height: 300px;
+        
+                h2{
+                    background: rgba(255, 255, 255, 0.12);
+                    border-radius: 5px;
+                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                    backdrop-filter: blur(5px);
+                    -webkit-backdrop-filter: blur(5px);
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                    color: white;
+                    font-family: var(--font_title);
+                    font-size: 30px;
+                }
+                p{
+                    margin-top: 2rem;
+                }
+            }
+            .nem {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               flex-direction: column;
+               width: 310px;
+               height: 200px;
+               flex-grow: 1;
+                background: rgba(255, 255, 255, 0.12);
+                border-radius: 5px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                padding: 3%;
+                
+                h2{
+                    width: 100%;
+                    background: rgba(255, 255, 255, 0.12);
+                    border-radius: 5px;
+                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                    backdrop-filter: blur(5px);
+                    -webkit-backdrop-filter: blur(5px);
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                    color: white;
+                    font-family: var(--font_title);
+                    font-size: 2rem;
+                }
+            } 
+          
+        #nem{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:20px;
+            flex-wrap: wrap;
+            .informations-nem{
+                margin-top: 1rem;
+                height: 60px;
+                width: 250px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap:0.1rem;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                color: white;
+                font-family: var(--font_text);
+                font-size: 1.6rem;
+                padding:2%;
+                p{
+                    font-size:1.3rem;
+                }
+            }
+        }
+    }
+    
+    }
+}

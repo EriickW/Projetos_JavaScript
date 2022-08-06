@@ -1,0 +1,28 @@
+header {
+    
+    nav{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom:2rem;
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 5rem;
+            list-style: none;
+            font-size: 1.4rem;
+            li a{
+                text-decoration: none;
+                color: white;
+                font-family: var(--font_text);
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+        }
+    }
+    img{
+        width: 10rem;
+    }
+  
+}
