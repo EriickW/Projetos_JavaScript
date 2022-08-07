@@ -1,0 +1,43 @@
+@media (max-width:1116px) {
+    body{
+        main{
+            #personagem{
+                #trocaPersonagem{
+                    left:30px;
+
+                } 
+                #nem{
+ 
+                    .nem-box{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: row;
+                        gap:1rem;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+}
+
+    
+@media (max-width:700px){
+    body{
+        main{
+            #personagem{
+                flex-direction: column;
+                #trocaPersonagem{
+                    top: 130px;
+                    left:10px;
+                } 
+                #content-person{
+                    width: 100%;
+                    flex-shrink: 0;
+                    flex-grow:0;
+                }
+            } 
+        }
+    }
+}

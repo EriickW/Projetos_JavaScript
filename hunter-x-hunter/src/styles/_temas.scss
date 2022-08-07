@@ -2,14 +2,23 @@
    // background: var(--bg-gon);
    background: linear-gradient(rgba(0, 0, 0, 0.51),
     rgba(0, 0, 0, 0.51)),url("../img/gon-bg.jpg")center center/cover no-repeat fixed ;
+    #gon{
+        border:2px solid white;
+    }
 }
 .killua{
    // background: var(--bg-killua);
     background: linear-gradient(rgba(0, 0, 0, 0.51),
     rgba(0, 0, 0, 0.51)),url("../img/killua-bg.jpg")center center/cover no-repeat fixed ;
+    #killua{
+        border:2px solid white;
+    }
 }
 .kurapika{
    // background: rgb(138, 65, 60);
    background: linear-gradient(rgba(0, 0, 0, 0.51),
     rgba(0, 0, 0, 0.51)),url("../img/kurapika-bg.jpg")center center/cover no-repeat fixed ;
+    #kurapika{
+        border:2px solid white;
+    }
 }
