@@ -11,49 +11,44 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style/main.css" />
-    <script src="src/script/main.js"></script>
+    <script src="src/script/main.js" defer></script>
     <title>Border Radius Previewer</title>
   </head>
   <body>
-    <aside>
-      <section>
-        <h1>Border Radius Previewer</h1>
-        <ul>
-            <li>Border</li>
-            <li>Color</li>
-            <li>Shadow</li>
-        </ul>
-        <form action="">
-          <div>
-            <label for="border-radius">Border-radius</label>
-            <input type="range" min="0" step="1" value="0" id="border-radius" />
-            <p></p>
-          </div>
-          <div>
-            <label for="border-radius-left-top">Border-radius-left-top</label>
-            <input type="range" min="0" step="1" value="0" id="border-radius-left-top"/>
-            <p></p>
-          </div>
-          <div>
-            <label for="border-radius-left-bottom">Border-radius-left-bottom</label>
-            <input type="range" min="0" step="1" value="0" id="border-radius"/>
-            <p></p>
-          </div>
-          <div>
-            <label for="border-radius">Border-radius</label>
-            <input type="range" min="0" step="1" value="0" id="border-radius"/>
-            <p></p>
-          </div>
-          <div>
-            <label for="border-radius">Border-radius</label>
-            <input type="range" min="0" step="1" value="0" id="border-radius"/>
-            <p></p>
-          </div>
-        </form>
-      </section>
-    </aside>
     <main>
-      <div id="forma"></div>
+      <section>
+
+
+
+        <h1>Border Radius Previewer</h1>
+
+        <div class="top">
+          <div>
+            
+            <input type="number" min="0" step="1" value="0" id="border-radius-left-top"/>
+            <p></p>
+          </div>
+          <div>
+            <input type="number" min="0" step="1" value="0" id="border-radius-right-top"/>
+            <p></p>
+          </div>
+        </div>
+
+  
+          <div id="forma"></div>
+          
+          <div class="bot">
+            <div>
+              <input type="number" min="0" step="1" value="0" id="border-radius-left-bottom"/>
+              <p></p>
+            </div>
+            <div>
+              <input type="number" min="0" step="1" value="0" id="border-radius-right-bottom"/>
+              <p></p>
+            </div>
+          </div>
+      </section>
     </main>
+    
   </body>
 </html>
