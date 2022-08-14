@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 1.6rem;
+}
+
+.alinhamento {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 2%;
+}
+
+nav {
+  position: absolute;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 5rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+nav #menu {
+  display: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.menu-expanded nav {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: red;
+  z-index: 100;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-expanded nav .logo {
+  display: none;
+}
+
+.menu-expanded nav #menu {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.menu-expanded nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  gap: 4rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.menu-expanded main {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  header {
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    position: relative;
+  }
+  .alinhamento {
+    padding: 3%;
+  }
+  nav {
+    height: 7rem;
+  }
+  nav ul {
+    display: none;
+  }
+  nav #menu {
+    display: block;
+  }
+}
+
+#castelo {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/castelo.jpg") center center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#castelo .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+#castelo .text p {
+  width: 50%;
+}
+/*# sourceMappingURL=main.css.map */
