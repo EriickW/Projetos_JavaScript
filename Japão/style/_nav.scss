@@ -1,4 +1,6 @@
-
+header{
+    z-index: 1000;
+}
 
 nav{
     position: absolute;
@@ -12,6 +14,8 @@ nav{
             list-style: none;
             gap: 2rem;
             a{
+                font-family:var(--font-Text);
+                font-weight: 800;
                 color: white;
                 text-decoration: none;
             }
@@ -63,17 +67,20 @@ nav{
         display: flex;
         align-items: center;
         justify-content: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.26);
     }
 }
-@media (max-width:600px) {
+@media (max-width:699px) {
     header{
         position: relative;
+        
     }
     .alinhamento{
         padding:3%
     }
     nav{
         height: 7rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.26);
     ul{
         display: none;   
     }
