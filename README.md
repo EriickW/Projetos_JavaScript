@@ -8,7 +8,6 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 <div align="center">
-<img src="https://img.shields.io/website-up-down-green-red/http/eriickw.github.io/Projetos_JavaScript.svg ">
 <img src="https://img.shields.io/github/license/EriickW/Projetos_JavaScript.svg">
 <img src="https://img.shields.io/github/stars/EriickW/Projetos_JavaScript.svg">
 <img src="https://img.shields.io/github/followers/EriickW.svg?style=social&label=Follow&maxAge=2592000">
